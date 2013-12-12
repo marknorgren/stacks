@@ -28,7 +28,7 @@ At the PSQL prompt, enter the following command and set the password to `postgre
 
     \password postgres
 
-Now create a database and verde user in Postgres:
+Now create a database and stacks user in Postgres:
 
     CREATE DATABASE stacks;
     CREATE USER stacks WITH PASSWORD 'stacks';
